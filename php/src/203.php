@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+extract($_POST);
+?>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<?php
-$nom = $_POST["nom"];
-$cognom1 = $_POST["cognom1"];
-$cognom2 = $_POST["cognom2"];
-$email = $_POST["email"];
-$any = $_POST["any"];
-$telefon = $_POST["telefon"];
-?>
 <table>
     <tr>
         <td>Nom</td>
