@@ -17,13 +17,13 @@
 <?php
     if (isset($hora,$minut,$segon)) {
         $segon++;
-        if ($segon === MAXIM_SEGON) {
+        if ($segon >= MAXIM_SEGON) {
             $segon = 0;
             $minut++;
-            if ($minut === MAXIM_MINUT) {
+            if ($minut >= MAXIM_MINUT) {
                 $minut = 0;
                 $hora++;
-                if ($hora === MAXIM_HORA) {
+                if ($hora >= MAXIM_HORA) {
                     $hora = 0;
                 }
             }
