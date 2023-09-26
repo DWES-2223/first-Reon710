@@ -2,7 +2,7 @@
 
 class ArraysCest
 {
-    /*
+
     public function _before(AcceptanceTester $I)
     {
     }
@@ -16,7 +16,7 @@ class ArraysCest
     }
 
 
-    public function try233WorksTest(AcceptanceTester $I)
+    /*public function try233WorksTest(AcceptanceTester $I)
     {
         $I->amOnPage('/233.php');
         $I->see('Posa la quantitat a la variable quantitat pel QueryString');
@@ -25,7 +25,7 @@ class ArraysCest
         $I->see('1 bitllet de 100');
         $I->see('1 bitllet de 5');
         $I->see('1 moneda de 2');
-    }
+    }*/
 
     public function try234WorksTest(AcceptanceTester $I)
     {
@@ -42,6 +42,5 @@ class ArraysCest
         $I->seeInSource('<table> <thead> <tr> <th>Nom</th> <th>Alçada</th> <th>Email</th> </tr> </thead>');
 
     }
-    */
 
 }
