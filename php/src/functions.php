@@ -15,7 +15,9 @@ function arrayAleatori (int $tam, int $min, int $max) : array {
 function countParells(array $array): int {
     $numeroDeParells = 0;
     foreach ($array as $numero) {
-        $numeroDeParells = (esParell($numero)) ? $numeroDeParells++ : $numeroDeParells;
+        if(esParell($numero)) {
+            $numeroDeParells++;
+        }
     }
     return $numeroDeParells;
 }
@@ -63,3 +65,4 @@ function llevaDarrere(int $num, int $cant): int {
     }
     return $cadenaResultante;
 }
+
