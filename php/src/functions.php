@@ -31,6 +31,7 @@ function major(...$numeros): int {
 }
 
 function concatenar(...$paraules) : string {
+    //Con el método implode se puede hacer igual
     $cadena = "";
     foreach ($paraules as $paraula) {
         $cadena .= $paraula." ";
@@ -64,5 +65,24 @@ function llevaDarrere(int $num, int $cant): int {
         }
     }
     return $cadenaResultante;
+}
+
+function llevaDavant(int $num, int $cant): int {
+    $numeroCadena = "$num";
+    $cadenaResultante = "";
+    for ($i = 0; $i < strlen($numeroCadena); $i++) {
+        if ($i + 1 >= $cant) {
+            $cadenaResultante .= $numeroCadena[$i];
+        }
+    }
+    return $cadenaResultante;
+}
+
+function peseta2euros(int $pesetas, $cotizacion = 0.0060) {
+    return $pesetas * $cotizacion;
+}
+
+function euro2pesetes(int $euros, $cotizacion = 166.3860) {
+    return $euros * $cotizacion;
 }
 
