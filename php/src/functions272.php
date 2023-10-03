@@ -14,6 +14,7 @@ function vell($records): string {
     }
     return $pruebaMasAntigua;
 }
+
 function fecha_inglesa($fecha): string {
     $anio = any($fecha);
     if ($anio) {
