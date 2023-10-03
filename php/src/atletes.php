@@ -1,21 +1,21 @@
 <?php $records = array (
   100 => 
   array (
-    'marca' => '33',
-    'atleta' => 'Rubén Elías',
-    'natalici' => '26/05/03',
-    'club' => 'Real Madrid',
-    'data' => '',
-    'lloc' => '',
+    'marca' => '10.06',
+    'atleta' => 'Bruno Hortelano Roig',
+    'natalici' => '1991',
+    'club' => 'Playas de Castellón',
+    'data' => '23.06.2016',
+    'lloc' => 'Madrid',
   ),
   200 => 
   array (
-    'marca' => '20.04',
-    'atleta' => 'Bruno Hortelano Roig',
-    'natalici' => '1991',
-    'club' => 'C.D.Nike Running',
-    'data' => '22.07.2018',
-    'lloc' => 'Getafe',
+    'marca' => '19:20',
+    'atleta' => 'Ignasi Gomis Mullor',
+    'natalici' => '1968',
+    'club' => 'POC A POC ALCOI',
+    'data' => '09.07.2022',
+    'lloc' => 'Alcoi',
   ),
   400 => 
   array (

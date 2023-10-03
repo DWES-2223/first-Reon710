@@ -9,4 +9,8 @@ tests/unit/FunctionsTest.php:test242LlevaDarrere
 tests/unit/FunctionsTest.php:test242LlevaDavant
 tests/unit/FunctionsTest.php:test243peseta2Euros
 tests/unit/FunctionsTest.php:test243euro2Pesetes
-tests/acceptance/FuncionsCest.php:try244WorksTest
+tests/unit/ExamenTest.php:test272FecIng
+tests/unit/ExamenTest.php:test272Vell
+tests/unit/ExamenTest.php:test272Laureado
+tests/unit/ExamenTest.php:test273Jove
+tests/unit/ExamenTest.php:test273Any

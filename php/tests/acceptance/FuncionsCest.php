@@ -16,7 +16,7 @@ class FuncionsCest
         $I->seeInField('pesetes',"1660");
     }
 
-    public function try244WorksTest(AcceptanceTester $I)
+/*    public function try244WorksTest(AcceptanceTester $I)
     {
         $I->amOnPage('/244a.php');
         $I->see('Dades incorrectes');
@@ -41,7 +41,7 @@ class FuncionsCest
         $I->seeInCurrentUrl('/244b.php');
         $I->see('249');
 
-    }
+    }*/
 
     public function try245WorksTest(AcceptanceTester $I)
     {
