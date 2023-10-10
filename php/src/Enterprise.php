@@ -31,12 +31,7 @@ class Enterprise {
     }
 
     public function listWorkersHtml(): string {
-        $html = '<ul>';
-        foreach ($this->workers as $worker) {
-            $html .= '<li>' . $worker->toHtml() . '</li>';
-        }
-        $html .= '</ul>';
-        return $html;
+
     }
 
     public function getCosteNominas(): float {
