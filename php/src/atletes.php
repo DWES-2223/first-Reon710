@@ -10,12 +10,12 @@
   ),
   200 => 
   array (
-    'marca' => '19:20',
-    'atleta' => 'Ignasi Gomis Mullor',
-    'natalici' => '1968',
-    'club' => 'POC A POC ALCOI',
-    'data' => '09.07.2022',
-    'lloc' => 'Alcoi',
+    'marca' => '33',
+    'atleta' => 'Rubén Elías',
+    'natalici' => '2003',
+    'club' => 'Real Madrid',
+    'data' => '26.05.2013',
+    'lloc' => 'adfadfasd',
   ),
   400 => 
   array (
